@@ -1,4 +1,28 @@
+# .NET build output
 bin/
 obj/
-bin
-obj
+
+# Local SQLite database and its write-ahead log files
+*.db
+*.db-shm
+*.db-wal
+
+# Secrets and local environment config
+.env
+.env.*
+secrets.json
+
+# Editor / IDE files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Test and log output
+TestResults/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
