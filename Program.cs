@@ -11,7 +11,7 @@ app.MapPost("/api/requests", async (CreateRequest body, IClassifier classifier) 
         return Results.BadRequest(new { error = "description must be 10-2000 characters" });
 
     var c = await classifier.ClassifyAsync(description);
-    var reference = "NW " + Guid.NewGuid().ToString("N")[..8].ToUpper();
+    var reference = "NW" + Guid.NewGuid().ToString("N")[..8].ToUpper();
     return Results.Created($"/api/requests/{reference}",
         new { reference, c.Category, c.Department, c.Urgency, c.Summary });
 });
