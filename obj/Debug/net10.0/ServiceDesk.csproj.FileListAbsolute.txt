@@ -26,3 +26,4 @@
 /home/cyphr-kai/Documents/nw-service-desk-dotnet/ServiceDesk/obj/Debug/net10.0/ServiceDesk.pdb
 /home/cyphr-kai/Documents/nw-service-desk-dotnet/ServiceDesk/obj/Debug/net10.0/ServiceDesk.genruntimeconfig.cache
 /home/cyphr-kai/Documents/nw-service-desk-dotnet/ServiceDesk/obj/Debug/net10.0/ref/ServiceDesk.dll
+/home/cyphr-kai/Documents/nw-service-desk-dotnet/ServiceDesk/obj/Debug/net10.0/ServiceDesk.sourcelink.json
